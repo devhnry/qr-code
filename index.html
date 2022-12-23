@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./src/images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <main class="container">
-      <div class="card">
-        <img src="./src/images/image-qr-code.png" alt="qr-code">
-        <h1 class="primary-header">
-          Improve your front-end skills by building projects
-        </h1>
-        <p class="instruction" >
-          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-        </p>
-      </div>
+    <main>
+      <article class="card">
+        <div class="card__content">
+          <picture class="qr__code">
+            <img src="./src/images/image-qr-code.png" alt="qr-code">
+          </picture>
+
+          <div class="card__description">
+            <h1 class="card__title">
+              Improve your front-end skills by building projects
+            </h1>
+            <p>
+              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
+          </div>
+        </div>
+      </article>
     </main>
-    
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
